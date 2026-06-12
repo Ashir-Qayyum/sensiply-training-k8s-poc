@@ -26,6 +26,7 @@ services:
       dockerfile: Dockerfile
 
     container_name: spring-backend
+    restart: always
 
     ports:
       - "8080:8080"
